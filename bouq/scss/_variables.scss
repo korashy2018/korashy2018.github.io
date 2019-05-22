@@ -1,0 +1,75 @@
+// colors
+$blue:#e3ede7;
+$green:#c2d69b;
+$yellow:#ffff75;
+$orange:#f8a764;
+$fontColor:#333;
+$lightTextColor:#999;
+
+$normalSize: 17px;
+$subTitleSize: 18px;
+$smallSize: 12px;
+$navSize:16px;
+
+
+$secPadding: 40px 0 0 0;
+
+
+
+
+
+
+
+//----- translate -----
+$isRtl:ltr;
+$left: left;
+$right: right;
+$direction:ltr;
+$minus: 1;
+$bodyFont:  'PT Sans', sans-serif;
+$headingFont: 'Merienda One', cursive;
+$langFont:DroidKufi;
+
+$double-right: "\f101";
+$double-left: "\f100";
+$chevron-left:"\f053";
+$chevron-right:"\f054";
+
+$rotate90: 90deg;
+
+$flex-direction:row;
+
+
+@if $isRtl == rtl
+{
+    $left: right;
+    $right: left;
+    $direction:rtl;
+    $minus: -1;
+    $bodyFont: DroidKufi;
+    $langFont: 'Merienda One', cursive;
+    $navSize:18px;
+    $double-right: "\f100";
+    $double-left: "\f101";
+    $chevron-left:"\f054";
+    $chevron-right:"\f053";
+    $rotate90: -90deg;
+    $flex-direction:row-reverse;
+
+}
+@else {
+    $left: left;
+    $right: right;
+    $direction:ltr;
+    $minus: 1;
+    $bodyFont:  'PT Sans', sans-serif;
+    $headingFont: 'Merienda One', cursive;
+    $langFont:DroidKufi;
+    $double-right: "\f101";
+    $double-left: "\f100";
+    $chevron-left:"\f053";
+    $chevron-right:"\f054";
+    $rotate90: 90deg;
+    $flex-direction:row;
+
+}

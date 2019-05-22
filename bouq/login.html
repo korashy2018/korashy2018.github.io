@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+
+<!-- IE compatipility Meta -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<!-- Resposive Meta-->
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<!-- Keywords Meta-->
+<meta name="keywords" content="">
+<!-- description Meta-->
+<meta name="description" content="">
+
+<!--Author Meta-->
+<meta name="author" content="Diva-lab">
+
+
+<title></title>
+<link rel="icon" href="images/"/>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<link href="css/style_ltr.css" rel="stylesheet" type="text/css"/>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body>
+<div class="registeration">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <img src="images/bouquet.png" alt=""/>
+        </a>
+        <div class="content">
+            <img src="images/bg-flowers.png">
+            <div class=" row">
+                <div class="col-md-12">
+                    <div class="sec-title">sign in</div>
+                </div>
+                <form class="col-md-5">
+                    <div class="form-group">
+                        <input class="form-control custom-input" type="email" placeholder="E-mail">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control custom-input" type="password" placeholder="Password">
+                    </div>
+                    <div class="form-group login-options">
+                        <div class="check">
+                            <input type="checkbox" id="keep-login">
+                            <label for="keep-login">keep me login</label>
+                        </div>
+                        <a href="#" class="underline">forget password</a>
+                    </div>
+                    <button class="btn custom-btn" type="submit">submit</button>
+                </form>
+                <div class="col-md-1">Or</div>
+                <div class="col-md-5">
+                    <div class="social-login">
+                        <div class="form-group">
+                            <a href="#" class="facebook">
+                                <span><i class="fab fa-facebook-f"></i>
+                                login with facebook</span>
+                            </a>
+                        </div>
+                        <div class="form-group">
+                            <a href="#" class="google">
+                                <span><i class="fab fa-google-plus-g"></i>
+                                login with gmail</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--*****************************************************************-->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+<script>
+$(".gender").select2({
+    placeholder: "Gender",
+    minimumResultsForSearch: -1,
+});
+</script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+
+<script src="js/custom.js"></script>
+
+<script>
+    var dateNum = moment().get('date');
+
+    $('.datepicker').daterangepicker({
+        locale: {
+            "format": "YYYY-MM-DD"
+        },
+        singleDatePicker: true,
+        showDropdowns: true ,
+        minDate:  moment().year(moment().year() - 120).month(moment().month()).date(dateNum - 1),
+        maxDate: moment().year(moment().year() - 12).month(moment().month()).date(dateNum - 1),
+        startDate: moment().year(moment().year() - 12).month(moment().month()).date(dateNum - 1)
+    });
+    $('input.datepicker').val('');
+</script>
+</body>
+
+</html>
