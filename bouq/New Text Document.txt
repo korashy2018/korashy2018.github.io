@@ -1,1 +1,0 @@
-sass --watch D:\bouquet\bouquet-static\scss\imports.scss:D:\bouquet\bouquet-static\css\style_ltr.css
