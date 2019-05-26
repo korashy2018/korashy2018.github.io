@@ -19,6 +19,17 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.clear-fix{
+    zoom: 1;
+}
+.clear-fix:after{
+    content:".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+
+}
 /*------------------------------------------------*/
 /*reusable Components
 /*------------------------------------------------*/
@@ -26,20 +37,73 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    padding: 80px 0;
+}
+.box{
+    padding: 1%
+}
 /*------------------------------------------------*/
 /*Heading
 /*------------------------------------------------*/
+h1,
+h2,
+h3{ /*font-size: 2em;*/
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
 h1{
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    /*font-size: 2em;*/
-    font-weight:300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
     word-spacing: 3px;
 }
+h2{
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 30px auto 0;
+}
+h3{
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+
+/*------------------------------------------------*/
+/*Paragraphs
+/*------------------------------------------------*/
+
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+/*------------------------------------------------*/
+/*Icons
+/*------------------------------------------------*/
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color:#e67e22;
+    margin-bottom: 20px;
+}
+
 /*------------------------------------------------*/
 /*Buttons
 /*------------------------------------------------*/
@@ -118,3 +182,115 @@ header{
     border-bottom: 2px solid  #cf6d17;
     transition: border-bottom 2s;
 }
+/*------------------------------------------------*/
+/*                      Features
+/*------------------------------------------------*/
+.features .long-copy{
+    margin-bottom: 20px;
+}
+
+/*------------------------------------------------*/
+/*                      Meals
+/*------------------------------------------------*/
+.meals{
+    padding: 0;
+}
+.meals-showcase{
+    list-style-type: none;
+    width: 100%;
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+.meals-photo{
+    background-color: #000;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+
+}
+.meals-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s,opacity 0.5s;
+    cursor: pointer;
+}
+.meals-photo img:hover {
+    opacity: 1.0;
+    transform: scale(1.05);
+}
+/*------------------------------------------------*/
+/*                  How it works
+/*------------------------------------------------*/
+.how-it-works{
+    background-color: #f2f2f2;
+}
+.steps-box{
+    margin-top: 20px;
+}
+.steps-box:first-child{
+    text-align: right;
+    padding-right: 3%;
+}
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+.app-shot{
+    width: 100%;
+}
+.app-shot img {
+    width: 40%;
+}
+.step{
+    margin-bottom: 50px;
+}
+.step:last-of-type{
+    margin-bottom: 80px;
+}
+.step div{
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    font-size: 150%;
+    margin-right: 25px;
+}
+.step p {
+
+}
+.btn-app{
+    text-align: center;
+}
+.btn-app img{
+    height: 50px;
+    width: auto;
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+/*------------------------------------------------*/
+/*                  Cities
+/*------------------------------------------------*/
+.city-image img  {
+    width:100%;
+    margin-bottom: 10px;
+}
+.city-feature i {
+    display: inline-block;
+    width: 30px;
+    font-size: 150%;
+    margin-right: 10px;
+    text-align: center;
+    color: #e67e22;
+}
+
