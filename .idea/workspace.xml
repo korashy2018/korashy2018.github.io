@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/draft/food/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/food/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/food/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/draft/food/resources/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,8 +33,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/draft/food/resources/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+                <state relative-caret-position="200">
+                  <caret line="433" selection-start-line="433" selection-end-line="433" />
                 </state>
               </provider>
             </entry>
@@ -208,7 +207,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558551950302</updated>
       <workItem from="1558551952870" duration="23801000" />
-      <workItem from="1558625388670" duration="68469000" />
+      <workItem from="1558625388670" duration="68650000" />
     </task>
     <task id="LOCAL-00001" summary="style">
       <created>1558552315241</created>
@@ -228,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92270000" />
+    <option name="totallyTimeSpent" value="92451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,7 +239,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.051282052" />
@@ -479,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/food/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="125" column="19" selection-start-line="125" selection-start-column="19" selection-end-line="125" selection-end-column="19" />
+        <state relative-caret-position="200">
+          <caret line="433" selection-start-line="433" selection-end-line="433" />
         </state>
       </provider>
     </entry>
