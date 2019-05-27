@@ -11,6 +11,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus{
+    outline: none;
+
+}
 html{
     background: #fff;
     color:#555;
@@ -108,8 +112,10 @@ h3{
 /*Buttons
 /*------------------------------------------------*/
 
-.btn:link,.btn:visited{
-    display: inline-block;
+.btn:link,
+.btn:visited,
+input[type=submit]
+{   display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
@@ -117,15 +123,26 @@ h3{
     color: #fff;
     border: 1px solid #e67e22;
     transition: background-color 0.2s,border 0.2s,color 0.2s;
+    cursor: pointer;
+
 }
-.btn:hover,.btn:active{
+.btn:hover,
+.btn:active,
+input[type=submit]:hover
+{
     background-color: #cf6d17;
 }
-.btn-full:link,.btn-full:visited{
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]
+{
     background-color: #e67e22;
     
 }
-.btn-full:hover,.btn-full:active{
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover
+ {
     background-color: #cf6d17;
 
 }
@@ -312,7 +329,6 @@ blockquote{
     padding: 2%;
     font-style: italic;
     line-height: 145%;
-    margin-top: 10px;
     position: relative;
     margin-top: 50px;
 }
@@ -389,4 +405,29 @@ cite img{
 .plan-features li i {
     margin-right: 10px;
 }
+/*------------------------------------------------*/
+/*                  Contact Us
+/*------------------------------------------------*/
+.contact-form{
+    width: 70%;
+    margin: 0 auto;
+}
+.input-block{
+        margin-bottom: 25px;
+}
 
+input[type=text],
+input[type=email],
+textarea,
+select{
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 100px;
+}
+input[type="checkbox"]{
+    margin:10px 5px 10px 0;
+}
