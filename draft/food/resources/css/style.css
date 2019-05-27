@@ -47,6 +47,12 @@ section{
 .box{
     padding: 1%
 }
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
 /*------------------------------------------------*/
 /*Heading
 /*------------------------------------------------*/
@@ -432,3 +438,44 @@ input[type="checkbox"]{
     margin:10px 5px 10px 0;
 }
 
+/*------------------------------------------------*/
+/*                  Footer
+/*------------------------------------------------*/
+footer{
+    background-color: #000;
+    color: #888;
+    padding: 2%;
+
+}
+.links{
+    float: left;
+    font-size: 120%;
+}
+.social-links{
+    float: right;
+    font-size: 150%;
+}
+.links li ,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.links li  a,
+.social-links li a {
+    text-decoration: none;
+    color: #888;
+    transition: color 0.2s;
+
+}
+.links li  a:hover,
+.social-links li a:active {
+    text-decoration: none;
+    color: #ddd;
+}
+
+.copyright{
+    text-align: center;
+    padding: 3%;
+    margin-top: 30px;
+}
