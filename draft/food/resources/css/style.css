@@ -229,7 +229,7 @@ header{
 /*                  How it works
 /*------------------------------------------------*/
 .how-it-works{
-    background-color: #f2f2f2;
+    background-color: #f4f4f4;
 }
 .steps-box{
     margin-top: 20px;
@@ -340,3 +340,53 @@ cite img{
     margin-right: 10px;
     vertical-align: middle;
 }
+
+/*------------------------------------------------*/
+/*                  Prricing
+/*------------------------------------------------*/
+
+.pricing{
+    background-color: #f4f4f4;
+
+}
+.plan-block{
+    background-color: #ffffff;
+    width: 85%;
+    margin-left: 5%;
+    box-shadow: 1px 2px 1px #e8e8e8;
+}
+.plan-block div:last-child{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.plan-price{
+    color: #e67e22;
+    font-size: 190%;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.plan-desc{
+    font-size: 80%;
+    margin-top: 5px;
+}
+.plan-title{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.plan-title, .plan-features {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.plan-features{
+    list-style-type: none;
+    margin-bottom: 10px;
+
+}
+.plan-features li{
+    padding: 2%;
+}
+.plan-features li i {
+    margin-right: 10px;
+}
+
