@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/food/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/food/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draft/food/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/draft/food/resources/css/style.css" afterDir="false" />
     </list>
@@ -21,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/draft/food/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="145" column="77" selection-start-line="145" selection-start-column="77" selection-end-line="145" selection-end-column="77" />
+                <state relative-caret-position="312">
+                  <caret line="229" column="24" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -34,8 +35,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/draft/food/resources/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="292" column="4" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="4" />
+                <state relative-caret-position="288">
+                  <caret line="326" column="16" lean-forward="true" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -58,6 +59,9 @@
       <find>shop</find>
       <find>reu</find>
       <find>box</find>
+      <find>i</find>
+      <find>blockquote</find>
+      <find>blockquote</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,6 +122,12 @@
               <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="draft" type="462c0819:PsiDirectoryNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1558551950302</updated>
       <workItem from="1558551952870" duration="23801000" />
-      <workItem from="1558625388670" duration="52024000" />
+      <workItem from="1558625388670" duration="58211000" />
     </task>
     <task id="LOCAL-00001" summary="style">
       <created>1558552315241</created>
@@ -215,7 +225,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75825000" />
+    <option name="totallyTimeSpent" value="82012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -230,7 +240,7 @@
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.032051284" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.051282052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,15 +469,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/food/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="145" column="77" selection-start-line="145" selection-start-column="77" selection-end-line="145" selection-end-column="77" />
+        <state relative-caret-position="312">
+          <caret line="229" column="24" selection-start-line="229" selection-start-column="24" selection-end-line="229" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/food/resources/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="292" column="4" selection-start-line="292" selection-start-column="4" selection-end-line="292" selection-end-column="4" />
+        <state relative-caret-position="288">
+          <caret line="326" column="16" lean-forward="true" selection-start-line="326" selection-start-column="16" selection-end-line="326" selection-end-column="16" />
         </state>
       </provider>
     </entry>

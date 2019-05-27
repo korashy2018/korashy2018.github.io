@@ -144,6 +144,8 @@ header{
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
+
 }
 .hero-text-box{
     position: absolute;
@@ -285,12 +287,56 @@ header{
     width:100%;
     margin-bottom: 10px;
 }
-.city-feature i {
+.icon-small {
     display: inline-block;
     width: 30px;
-    font-size: 150%;
-    margin-right: 10px;
     text-align: center;
     color: #e67e22;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right:10px;
 }
+/*------------------------------------------------*/
+/*                  testimonials
+/*------------------------------------------------*/
+.testiomonials{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url("../img/back-customers.jpg");
+    height: 100vh;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    margin-top: 10px;
+    position: relative;
+    margin-top: 50px;
+}
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -3px;
+}
+/*cite:before{*/
+/*    content: "\201D";*/
+/*    font-size: 400%;*/
+/*}*/
+cite {
+    display: block;
+    font-size: 90%;
+    margin-top: 25px;
 
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
