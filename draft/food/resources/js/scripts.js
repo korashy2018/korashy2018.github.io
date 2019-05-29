@@ -74,4 +74,17 @@ $(document).ready(function () {
       },{
         offset: "50%"
        });
+
+//       the burger icon
+    $('.js-nav-icon').click(function () {
+        var nav = $('.js-main-nav');
+        var icon = $('.js-nav-icon');
+        if(icon.hasClass("ion-navicon-round")){
+            icon.addClass("one-close-round");
+            icon.removeClass("ion-navicon-round");
+        }else{
+            icon.removeClass("one-close-round");
+            icon.addClass("ion-navicon-round");
+        }
+    });
 });
