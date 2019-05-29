@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <title>Food</title>
     <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
 
-    <script src="resources/js/scripts.js"></script>
 </head>
 <body>
 <!--Header Section-->
@@ -17,29 +18,30 @@
         <nav>
             <div class="row">
                 <img src="resources/img/logo-white.png" alt="Omnifood Logo" class="logo">
+                <img src="resources/img/logo.png" alt="Omnifood Logo" class="logo-black">
                 <ul class="main-nav">
-                    <li><a href="#">Food delivery </a></li>
-                    <li><a href="#">How it works </a></li>
-                    <li><a href="#">Our cities </a></li>
-                    <li><a href="#">Sign up </a></li>
+                    <li><a href="#features-section" class="js-to">Food delivery </a></li>
+                    <li><a href="#" class="js-to-how">How it works </a></li>
+                    <li><a href="#" class="js-to-city">Our cities </a></li>
+                    <li><a href="#" class="js-to-contact">Sign up </a></li>
                 </ul>
             </div>
         </nav>
         <div class="hero-text-box">
             <h1>Goodbye junk food. <br> Hello super healthy meals.</h1>
-            <a href="#" class="btn btn-full">I’m hungry</a>
-            <a href="#" class="btn btn-ghost">Show me more</a>
+            <a href="#" class="btn btn-full js-scroll-to-plan">I’m hungry</a>
+            <a href="#" class="btn btn-ghost js-scroll-to-start">Show me more</a>
 
         </div>
     </header>
 <!--End of Header-->
 <!--Features Section-->
-    <section class="features">
+    <section class="features js-features" id="features-section">
         <div class="row">
             <h2>Get food fast — not fast food.</h2>
             <p class="long-copy">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
         </div>
-        <div class="row">
+        <div class="row js-wp-1">
             <div class="col span-1-of-4 box">
                 <i class="ion-calendar icon-big"></i>
 
@@ -135,7 +137,7 @@
     <div class="row">
         <h2>We're currently in these cities</h2>
     </div>
-    <div class="row">
+    <div class="row js-wp-2">
         <div class="col span-1-of-4 box">
             <figure class="city-image">
                 <img src="resources/img/london.jpg" alt="">
@@ -234,7 +236,7 @@
 </section>
 <!--End of Testimonials Section-->
 <!--Pricing Section-->
-<section class="pricing">
+<section class="pricing js-wp-3">
     <div class="row">
         <h2>Start eating healthy today</h2>
     </div>
@@ -433,9 +435,11 @@
 </footer>
 <!--End of Footer  Section-->
 
-
-
-
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="resources/js/scripts.js"></script>
+
 </body>
 </html>
