@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/korashy2018.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/korashy2018.github.io.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/food/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/food/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/tour/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/tour/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/resources/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,23 +15,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.49755502">
+    <splitter split-orientation="vertical" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/draft/food/index.html">
+            <entry file="file://$PROJECT_DIR$/draft/tour/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="26">
-                  <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/draft/food/resources/js/scripts.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="201">
-                  <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+                <state>
+                  <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -40,21 +30,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/draft/food/resources/css/style.css">
+            <entry file="file://$PROJECT_DIR$/draft/tour/resources/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="252" column="17" selection-start-line="252" selection-start-column="17" selection-end-line="252" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/draft/food/resources/css/queries.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-377">
-                  <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+                <state relative-caret-position="248">
+                  <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
                 </state>
               </provider>
             </entry>
@@ -66,9 +47,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -132,13 +113,17 @@
         <option value="$PROJECT_DIR$/draft/food/resources/css/queries.css" />
         <option value="$PROJECT_DIR$/draft/food/resources/js/scripts.js" />
         <option value="$PROJECT_DIR$/draft/food/index.html" />
+        <option value="$PROJECT_DIR$/draft/tour/resources/js/scripts.js" />
+        <option value="$PROJECT_DIR$/draft/tour/index2.html" />
+        <option value="$PROJECT_DIR$/draft/tour/index.html" />
+        <option value="$PROJECT_DIR$/draft/tour/resources/css/style.css" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="width" value="697" />
-    <option name="height" value="515" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -164,28 +149,28 @@
               <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="foodopt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -206,13 +191,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\korashy2018.github.io\draft\css\positioning" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\korashy2018.github.io\draft" />
       <recent name="C:\korashy2018.github.io\draft\css\wordPress" />
       <recent name="C:\korashy2018.github.io\draft\css\css_beginners" />
       <recent name="C:\korashy2018.github.io\draft\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\korashy2018.github.io\draft\css\positioning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -227,14 +213,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
-    <configuration name="index1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/css/positioning/index1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/css/wordPress/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/food/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/tour/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/css/positioning/index.html" useBuiltInWebServerPort="true">
@@ -245,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index1.html" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +256,7 @@
       <workItem from="1559086186088" duration="305000" />
       <workItem from="1559086657836" duration="678000" />
       <workItem from="1559090366297" duration="19967000" />
+      <workItem from="1559180730753" duration="6522000" />
     </task>
     <task id="LOCAL-00001" summary="style">
       <created>1558552315241</created>
@@ -289,7 +276,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118817000" />
+    <option name="totallyTimeSpent" value="125339000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -301,16 +288,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="697" height="515" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.22125603" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31730768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.19662921" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21734235" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.19594595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.033444814" />
@@ -417,8 +403,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/food/resources/css/queries.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377">
+        <state relative-caret-position="1728">
           <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/food/resources/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -429,17 +422,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft/food/resources/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/draft/cycle/images/bike.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/cycle/images/stars.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/cycle/images/footer.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/cycle/images/lead-banner.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/cycle/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/cycle/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/tour/resources/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/tour/index2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="85" column="48" selection-start-line="85" selection-start-column="48" selection-end-line="85" selection-end-column="48" />
+        <state relative-caret-position="221">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/food/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="19" column="85" selection-start-line="19" selection-start-column="85" selection-end-line="19" selection-end-column="85" />
+        <state relative-caret-position="168">
+          <caret line="10" column="47" selection-start-line="10" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/tour/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/tour/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
         </state>
       </provider>
     </entry>
