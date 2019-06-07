@@ -1,0 +1,45 @@
+.header {
+  height: 95vh;
+  background-image: -webkit-gradient(
+                  linear,
+                  left top,
+                  right bottom,
+                  from(rgba($secondary-color-light, 0.8)),
+                  to(rgba($secondary-color-dark, 0.8))
+  ),
+  url("../img/hero.jpg");
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($secondary-color-light, 0.8),
+                  rgba($secondary-color-dark, 0.8)
+  ),
+  url("../img/hero.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  .logo-box
+  {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+  }
+  .logo {
+    height: 3.5rem;
+  }
+  span {
+    display: block;
+  }
+  .text-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 400;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+}
