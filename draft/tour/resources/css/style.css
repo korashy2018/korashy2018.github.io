@@ -278,6 +278,80 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 55rem; }
+  .card .card-side {
+    height: 55rem;
+    transition: all .8s ease;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    overflow: hidden;
+    border-radius: 0.3rem;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    .card .card-side.front {
+      background-color: #fff; }
+      .card .card-side.front .card-img {
+        background-size: cover;
+        height: 50%;
+        background-blend-mode: screen;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%); }
+        .card .card-side.front .card-img.one {
+          background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url("../img/nat-5.jpg"); }
+        .card .card-side.front .card-img.two {
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url("../img/nat-6.jpg"); }
+        .card .card-side.front .card-img.three {
+          background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url("../img/nat-7.jpg"); }
+      .card .card-side.front .card-heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: right;
+        position: absolute;
+        top: 12rem;
+        right: 2rem;
+        width: 75%; }
+        .card .card-side.front .card-heading span {
+          padding: 1rem 1.5rem;
+          -webkit-box-decoration-break: clone; }
+          .card .card-side.front .card-heading span.one {
+            background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85)); }
+          .card .card-side.front .card-heading span.two {
+            background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+          .card .card-side.front .card-heading span.three {
+            background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85)); }
+      .card .card-side.front .card-details {
+        padding: 3rem; }
+        .card .card-side.front .card-details ul {
+          list-style: none;
+          width: 80%;
+          margin: 0 auto; }
+          .card .card-side.front .card-details ul li {
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1.1rem; }
+            .card .card-side.front .card-details ul li:not(:last-child) {
+              border-bottom: 0.1rem solid #eee; }
+    .card .card-side.back {
+      transform: rotateY(180deg); }
+      .card .card-side.back.one {
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485); }
+      .card .card-side.back.two {
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
+      .card .card-side.back.three {
+        background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+  .card:hover .card-side.front {
+    transform: rotateY(-180deg); }
+  .card:hover .card-side.back {
+    transform: rotateY(0); }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
@@ -343,3 +417,8 @@ body {
   margin-top: -12rem; }
   .features-section > * {
     transform: skewY(7deg); }
+
+.tours-section {
+  margin-top: -10rem;
+  padding: 25rem 0 50rem 0;
+  background-color: #f7f7f7; }
