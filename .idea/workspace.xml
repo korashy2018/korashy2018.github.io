@@ -6,13 +6,7 @@
     <bookmark url="file://$PROJECT_DIR$/draft/tour/index.html" line="63" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/draft/tour/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/tour/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/resources/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/tour/sass/abstracts/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/sass/abstracts/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/tour/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/sass/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draft/tour/sass/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/sass/pages/_home.scss" afterDir="false" />
-    </list>
+    <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/draft/tour/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+            <state relative-caret-position="3648">
+              <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
               <folding>
                 <element signature="e#4515#4521#0" expanded="true" />
                 <element signature="e#4991#4997#0" expanded="true" />
@@ -42,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/draft/tour/sass/components/_card.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -194,59 +188,6 @@
               <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="draft" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="draft" type="462c0819:PsiDirectoryNode" />
-              <item name="tour" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -341,7 +282,7 @@
       <workItem from="1559699059875" duration="720000" />
       <workItem from="1559702597819" duration="13573000" />
       <workItem from="1559824409629" duration="8796000" />
-      <workItem from="1559838080591" duration="17351000" />
+      <workItem from="1559838080591" duration="18072000" />
     </task>
     <task id="LOCAL-00001" summary="style">
       <created>1558552315241</created>
@@ -361,7 +302,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188795000" />
+    <option name="totallyTimeSpent" value="189516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -374,7 +315,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="1" side_tool="true" />
@@ -669,14 +609,14 @@
     <entry file="file://$PROJECT_DIR$/draft/tour/sass/components/_card.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/tour/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+        <state relative-caret-position="3648">
+          <caret line="152" column="16" selection-start-line="152" selection-start-column="16" selection-end-line="152" selection-end-column="16" />
           <folding>
             <element signature="e#4515#4521#0" expanded="true" />
             <element signature="e#4991#4997#0" expanded="true" />
