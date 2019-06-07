@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/draft/tour/sass/main.scss" mnemonic="3" />
-    <bookmark url="file://$PROJECT_DIR$/draft/tour/sass/main.scss" line="10" mnemonic="2" />
-    <bookmark url="file://$PROJECT_DIR$/draft/tour/index.html" line="63" />
-  </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="317a4167-a851-48a2-aee3-a1d5bdd27310" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/draft/tour/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/draft/tour/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/draft/tour/resources/css/style.css" afterDir="false" />
+    </list>
+>>>>>>> parent of 32bf116... Tour updated
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,6 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/draft/tour/index.html">
@@ -60,6 +63,36 @@
         </entry>
       </file>
     </leaf>
+=======
+    <splitter split-orientation="vertical" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/draft/tour/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/draft/tour/resources/css/style.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="248">
+                  <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+>>>>>>> parent of 32bf116... Tour updated
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +105,21 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+=======
+      <find>shop</find>
+      <find>reu</find>
+      <find>box</find>
+      <find>i</find>
+      <find>blockquote</find>
+      <find>work</find>
+      <find>h2</find>
+      <find>btn</find>
+      <find>clear</find>
+      <find>row</find>
+      <find>sect</find>
+      <find>.lg</find>
+>>>>>>> parent of 32bf116... Tour updated
       <find>ste</find>
       <find>footer</find>
       <find>html</find>
@@ -89,6 +137,7 @@
       <find>main</find>
       <find>mai</find>
       <find>displ</find>
+<<<<<<< HEAD
       <find>px</find>
       <find>rem</find>
       <find>#77</find>
@@ -102,13 +151,9 @@
       <find>com</find>
       <find>fea</find>
       <find>dsadsa</find>
+=======
+>>>>>>> parent of 32bf116... Tour updated
     </findStrings>
-    <replaceStrings>
-      <replace />
-      <replace>$color-grey-dark</replace>
-      <replace>$color-white</replace>
-      <replace>$color-black</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,6 +184,7 @@
         <option value="$PROJECT_DIR$/draft/food/index.html" />
         <option value="$PROJECT_DIR$/draft/tour/resources/js/scripts.js" />
         <option value="$PROJECT_DIR$/draft/tour/index2.html" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/draft/tour/index1.html" />
         <option value="$PROJECT_DIR$/draft/tour/resources/css/style1.css" />
         <option value="$PROJECT_DIR$/draft/tour/package.json" />
@@ -159,6 +205,10 @@
         <option value="$PROJECT_DIR$/draft/tour/sass/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/draft/tour/sass/components/_card.scss" />
         <option value="$PROJECT_DIR$/draft/tour/index.html" />
+=======
+        <option value="$PROJECT_DIR$/draft/tour/index.html" />
+        <option value="$PROJECT_DIR$/draft/tour/resources/css/style.css" />
+>>>>>>> parent of 32bf116... Tour updated
       </list>
     </option>
   </component>
@@ -175,7 +225,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,10 +237,41 @@
               <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="draft" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
+              <item name="foodopt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="korashy2018.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="korashy2018.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="draft" type="462c0819:PsiDirectoryNode" />
+              <item name="tour" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> parent of 32bf116... Tour updated
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,19 +282,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="liveEdit" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\korashy2018.github.io\draft\css\positioning" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\korashy2018.github.io\draft" />
       <recent name="C:\korashy2018.github.io\draft\css\wordPress" />
       <recent name="C:\korashy2018.github.io\draft\css\css_beginners" />
       <recent name="C:\korashy2018.github.io\draft\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\korashy2018.github.io\draft\css\positioning" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,9 +309,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (3)">
-    <configuration name="index1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/tour/index1.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/css/wordPress/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -242,16 +318,19 @@
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/tour/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/css/positioning/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/korashy2018.github.io/draft/css/RD/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html (3)" />
-        <item itemvalue="JavaScript Debug.index1.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.index.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -273,6 +352,7 @@
       <workItem from="1559086657836" duration="678000" />
       <workItem from="1559090366297" duration="19967000" />
       <workItem from="1559180730753" duration="6522000" />
+<<<<<<< HEAD
       <workItem from="1559363692104" duration="598000" />
       <workItem from="1559385220585" duration="9482000" />
       <workItem from="1559440942559" duration="1916000" />
@@ -283,6 +363,8 @@
       <workItem from="1559702597819" duration="13573000" />
       <workItem from="1559824409629" duration="8796000" />
       <workItem from="1559838080591" duration="18072000" />
+=======
+>>>>>>> parent of 32bf116... Tour updated
     </task>
     <task id="LOCAL-00001" summary="style">
       <created>1558552315241</created>
@@ -302,7 +384,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="189516000" />
+=======
+    <option name="totallyTimeSpent" value="125339000" />
+>>>>>>> parent of 32bf116... Tour updated
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -316,16 +402,21 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.40064102" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31730768" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.21621622" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4946581" visible="true" weight="0.033783782" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21734235" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" weight="0.19594595" />
+>>>>>>> parent of 32bf116... Tour updated
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.033783782" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.033444814" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32998884" />
       <window_info anchor="bottom" id="Terminal" order="9" />
@@ -335,13 +426,13 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22211446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21627648" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" visible="true" weight="0.071794875" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49679488" visible="true" weight="0.07882883" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.033444814" />
@@ -371,6 +462,74 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/draft/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/css/css_beginners/style.css" />
+    <entry file="file://D:/Courses/WEB/Front/_The Net Ninja/2-CSS/1-Css For Beginners/CSS-for-Beginners---Bikes-Website-master/CSS-for-Beginners---Bikes-Website-master/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/css/css_beginners/cycle/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/css/css_beginners/cycle/style.css" />
+    <entry file="file://D:/Courses/WEB/Front/_The Net Ninja/2-CSS/1-Css For Beginners/CSS-for-Beginners---Bikes-Website-master/CSS-for-Beginners---Bikes-Website-master/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/java/style.css" />
+    <entry file="file://$PROJECT_DIR$/draft/java/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/java/scripts.js" />
+    <entry file="file://$PROJECT_DIR$/draft/java/DOM/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/java/DOM/style.css" />
+    <entry file="file://$PROJECT_DIR$/draft/css/css_beginners/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/java/DOM/script.js" />
+    <entry file="file://$PROJECT_DIR$/draft/css/positioning/index1.html" />
+    <entry file="file://$PROJECT_DIR$/draft/css/positioning/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/css/positioning/style.css" />
+    <entry file="file://$PROJECT_DIR$/draft/css/RD/style.css" />
+    <entry file="file://$PROJECT_DIR$/draft/css/RD/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/logo.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/thumb1.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/thumb2.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/thumb3.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/thumb4.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/onestar.jpg" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/gallery2.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/banner.jpg" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/logobw.png" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/images/starts.jpg" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/index.html" />
+    <entry file="file://$PROJECT_DIR$/draft/css/wordPress/style.css" />
+    <entry file="file://$PROJECT_DIR$/draft/food/resources/fonts/omnifood-content.rtf" />
+    <entry file="file://$PROJECT_DIR$/draft/food/resources/scripts/scripts.js" />
+    <entry file="file://D:/Unsorted Desktop/duaa/qayym-website-static/css/style-ltr.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92030" />
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="345" column="16" selection-start-line="345" selection-start-column="16" selection-end-line="345" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> parent of 32bf116... Tour updated
     <entry file="file://$PROJECT_DIR$/draft/food/resources/css/queries.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1728">
@@ -413,60 +572,17 @@
     <entry file="file://$PROJECT_DIR$/draft/tour/resources/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/index2.html" />
+    <entry file="file://$PROJECT_DIR$/draft/tour/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/draft/food/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="10" column="47" selection-start-line="10" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/Unsorted Desktop/duaa/qayym-website-static/sass/imports.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4536" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/resources/css/style1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="894">
-          <caret line="138" column="6" lean-forward="true" selection-start-line="138" selection-start-column="6" selection-end-line="138" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="74" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/index1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="23" column="37" lean-forward="true" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/sass/base/_utilities.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/sass/base/_base.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/draft/tour/sass/abstracts/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+<<<<<<< HEAD
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
@@ -589,11 +705,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+=======
+          <caret line="10" column="47" selection-start-line="10" selection-end-line="11" />
+>>>>>>> parent of 32bf116... Tour updated
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/draft/tour/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="312">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
@@ -622,6 +742,17 @@
             <element signature="e#4991#4997#0" expanded="true" />
             <element signature="e#5481#5487#0" expanded="true" />
           </folding>
+=======
+        <state>
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/draft/tour/resources/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+>>>>>>> parent of 32bf116... Tour updated
         </state>
       </provider>
     </entry>
