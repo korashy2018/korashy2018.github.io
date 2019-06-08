@@ -158,6 +158,9 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1rem; }
 
+.u-margin-top-big {
+  margin-top: 8rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -205,6 +208,13 @@ body {
 .btn-white::after {
   background-color: #fff; }
 
+.btn-green:link, .btn-green:visited {
+  background-color: #28b485;
+  color: #fff; }
+
+.btn-green::after {
+  background-color: #28b485; }
+
 .btn-animated {
   -webkit-animation: moveInBottomTop 0.5s ease-out 0.75s;
   animation: moveInBottomTop 0.5s ease-out 0.75s;
@@ -218,7 +228,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-bottom: 0.1rem solid #55c57a;
-  padding: .4rem; }
+  padding: 0.4rem; }
 
 .btn-text:hover {
   background-color: #55c57a;
@@ -285,7 +295,7 @@ body {
   height: 55rem; }
   .card .card-side {
     height: 55rem;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     width: 100%;
     position: absolute;
     top: 0;
@@ -347,6 +357,21 @@ body {
         background-image: linear-gradient(to right bottom, #ffb900, #ff7730); }
       .card .card-side.back.three {
         background-image: linear-gradient(to right bottom, #2998ff, #5643fa); }
+      .card .card-side.back .price-wrap {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 90%;
+        text-transform: uppercase; }
+        .card .card-side.back .price-wrap .price-only {
+          font-size: 1.6rem; }
+        .card .card-side.back .price-wrap .price-value {
+          font-size: 6rem;
+          font-weight: 100;
+          margin-bottom: 3rem; }
   .card:hover .card-side.front {
     transform: rotateY(-180deg); }
   .card:hover .card-side.back {

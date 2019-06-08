@@ -1,12 +1,12 @@
-.card{
+.card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
   height: 55rem;
 
-  .card-side{
+  .card-side {
     height: 55rem;
-    transition: all .8s ease;
+    transition: all 0.8s ease;
     width: 100%;
     position: absolute;
     top: 0;
@@ -14,33 +14,41 @@
     backface-visibility: hidden;
     overflow: hidden;
     border-radius: 0.3rem;
-    box-shadow: 0 1.5rem 4rem rgba($color-black,.15);
-    &.front{
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
+    &.front {
       background-color: $color-white;
-      .card-img{
+      .card-img {
         background-size: cover;
         height: 50%;
         background-blend-mode: screen;
-        -webkit-clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
-        clip-path: polygon(0 0,100% 0,100% 85%,0 100%);
-        &.one{
-          background-image:
-                  linear-gradient(to right bottom,$secondary-color-light,$secondary-color-dark),
-                  url("../img/nat-5.jpg");
-
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        &.one {
+          background-image: linear-gradient(
+              to right bottom,
+              $secondary-color-light,
+              $secondary-color-dark
+            ),
+            url("../img/nat-5.jpg");
         }
-        &.two{
-          background-image:
-                  linear-gradient(to right bottom,$color-third-light,$color-third-dark),
-                  url("../img/nat-6.jpg");
+        &.two {
+          background-image: linear-gradient(
+              to right bottom,
+              $color-third-light,
+              $color-third-dark
+            ),
+            url("../img/nat-6.jpg");
         }
-        &.three{
-          background-image:
-                  linear-gradient(to right bottom,$color-fourth-light,$color-fourth-dark),
-                  url("../img/nat-7.jpg");
+        &.three {
+          background-image: linear-gradient(
+              to right bottom,
+              $color-fourth-light,
+              $color-fourth-dark
+            ),
+            url("../img/nat-7.jpg");
         }
       }
-      .card-heading{
+      .card-heading {
         font-size: 2.8rem;
         font-weight: 300;
         text-transform: uppercase;
@@ -50,56 +58,100 @@
         top: 12rem;
         right: 2rem;
         width: 75%;
-        span{
+        span {
           padding: 1rem 1.5rem;
           -webkit-box-decoration-break: clone;
-           &.one{
-          background-image: linear-gradient(to right bottom,rgba($secondary-color-light,.85),rgba($secondary-color-dark,0.85));
-           }
-          &.two{
-            background-image: linear-gradient(to right bottom,rgba($color-third-light,.85),rgba($color-third-dark,0.85));
+          &.one {
+            background-image: linear-gradient(
+              to right bottom,
+              rgba($secondary-color-light, 0.85),
+              rgba($secondary-color-dark, 0.85)
+            );
           }
-          &.three{
-            background-image: linear-gradient(to right bottom,rgba($color-fourth-light,.85),rgba($color-fourth-dark,0.85));
+          &.two {
+            background-image: linear-gradient(
+              to right bottom,
+              rgba($color-third-light, 0.85),
+              rgba($color-third-dark, 0.85)
+            );
+          }
+          &.three {
+            background-image: linear-gradient(
+              to right bottom,
+              rgba($color-fourth-light, 0.85),
+              rgba($color-fourth-dark, 0.85)
+            );
           }
         }
       }
-      .card-details{
+      .card-details {
         padding: 3rem;
-        ul{
+        ul {
           list-style: none;
           width: 80%;
           margin: 0 auto;
-          li{
-             font-size: 1.5rem;
-             text-align: center;
-             padding: 1.1rem;
-             &:not(:last-child){
-               border-bottom: .1rem solid $color-grey-light2;
-             }
-
-           }
-         }
+          li {
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1.1rem;
+            &:not(:last-child) {
+              border-bottom: 0.1rem solid $color-grey-light2;
+            }
+          }
+        }
       }
     }
-
-    &.back{
+    //end of front
+    //start back
+    &.back {
       transform: rotateY(180deg);
-      &.one{
-        background-image: linear-gradient(to right bottom,$secondary-color-light,$secondary-color-dark);
+      &.one {
+        background-image: linear-gradient(
+          to right bottom,
+          $secondary-color-light,
+          $secondary-color-dark
+        );
       }
       &.two {
-        background-image: linear-gradient(to right bottom, $color-third-light, $color-third-dark);
+        background-image: linear-gradient(
+          to right bottom,
+          $color-third-light,
+          $color-third-dark
+        );
       }
-      &.three{
-        background-image: linear-gradient(to right bottom,$color-fourth-light,$color-fourth-dark);
+      &.three {
+        background-image: linear-gradient(
+          to right bottom,
+          $color-fourth-light,
+          $color-fourth-dark
+        );
+      }
+      .price-wrap {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        width: 90%;
+        text-transform: uppercase;
+
+        .price-only {
+          font-size: 1.6rem;
+        }
+        .price-value {
+          font-size: 6rem;
+          font-weight: 100;
+          margin-bottom: 3rem;
+        }
       }
     }
   }
-  &:hover .card-side.front{
+  //end back
+  &:hover .card-side.front {
     transform: rotateY(-180deg);
   }
-  &:hover .card-side.back{
+  &:hover .card-side.back {
     transform: rotateY(0);
   }
 }

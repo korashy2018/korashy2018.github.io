@@ -1,6 +1,6 @@
-.btn{
+.btn {
   &:link,
-  &:visited{
+  &:visited {
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
@@ -11,7 +11,7 @@
     position: relative;
     font-size: 1.6rem;
   }
-  &:hover{
+  &:hover {
     -webkit-transform: translateY(-0.3rem);
     transform: translateY(-0.3rem);
     -webkit-box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
@@ -22,13 +22,13 @@
       opacity: 0;
     }
   }
-  &:active{
+  &:active {
     -webkit-transform: translateY(-0.1rem);
     transform: translateY(-0.1rem);
     -webkit-box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
     box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
   }
-  &::after{
+  &::after {
     content: "";
     display: inline-block;
     height: 100%;
@@ -52,6 +52,16 @@
     background-color: $color-white;
   }
 }
+.btn-green {
+  &:link,
+  &:visited {
+    background-color: $secondary-color-dark;
+    color: $color-white;
+  }
+  &::after {
+    background-color: $secondary-color-dark;
+  }
+}
 
 .btn-animated {
   -webkit-animation: moveInBottomTop 0.5s ease-out 0.75s;
@@ -59,18 +69,18 @@
   -webkit-animation-fill-mode: backwards;
   animation-fill-mode: backwards;
 }
-.btn-text{
+.btn-text {
   &:link,
-  &:visited{
-  font-size: 1.6rem;
+  &:visited {
+    font-size: 1.6rem;
     color: $primary-color;
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-    border-bottom: .1rem solid $primary-color;
-    padding: .4rem;
+    border-bottom: 0.1rem solid $primary-color;
+    padding: 0.4rem;
   }
-  &:hover{
+  &:hover {
     background-color: $primary-color;
     color: $color-white;
     -webkit-transform: translateY(-0.3rem);
@@ -78,12 +88,10 @@
     -webkit-box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
   }
-  &:active{
-    webkit-box-shadow: 0 .5rem 1rem rgba($color-black, 0.2);
+  &:active {
+    webkit-box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
     box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
     -webkit-transform: translateY(-0.1rem);
     transform: translateY(-0.1rem);
   }
 }
-
-
