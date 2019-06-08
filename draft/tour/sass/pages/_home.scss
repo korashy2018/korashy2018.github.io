@@ -1,25 +1,30 @@
-.about-section{
+.about-section {
   background-color: $color-grey-light1;
   padding: 25rem 0;
   margin-top: -20vh;
 }
-.features-section{
+.features-section {
   padding: 20rem 0;
-  background-image:
-          linear-gradient(to right,
-                  rgba($secondary-color-light,0.8),
-                  rgba($secondary-color-dark,0.8)),
-          url("../img/nat-4.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba($secondary-color-light, 0.8),
+      rgba($secondary-color-dark, 0.8)
+    ),
+    url("../img/nat-4.jpg");
   background-size: cover;
   transform: skewY(-7deg);
   margin-top: -12rem;
-  & > *{
+  & > * {
     transform: skewY(7deg);
+  }
 }
-}
-.tours-section{
+.tours-section {
   margin-top: -10rem;
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 15rem 0;
   background-color: $color-grey-light1;
 }
 
+.stories-section {
+  padding: 15rem 0;
+  position: relative;
+}
