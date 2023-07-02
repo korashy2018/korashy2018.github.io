@@ -1,1 +1,0 @@
-# korashy2018.github.io
